@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FGenericCrashContext>
+<RuntimeProperties>
+<CrashVersion>3</CrashVersion>
+<ExecutionGuid>7CC52D58412E3A6C3A9277A9C68CD144</ExecutionGuid>
+<CrashGUID>UECC-Windows-E403984846F342DB14CB4DA92FD1A261_0000</CrashGUID>
+<IsEnsure>true</IsEnsure>
+<IsStall>false</IsStall>
+<IsAssert>false</IsAssert>
+<CrashType>Ensure</CrashType>
+<ErrorMessage>Ensure condition failed: TreeNode  [File:D:\build\++UE5\Sync\Engine\Plugins\Runtime\CommonUI\Source\CommonUI\Private\Input\CommonUIActionRouterBase.cpp] [Line: 1463] 
+Widget [CallButton] does not have a parent activatable widget at any level - cannot register standard binding to action [Legacy_DT_InputActions_Possess]. UserWidget parent(s): WBP_HUD_C_2147482395
+Stack: 
+0x00007ff7bdc4ac5d Onibi.exe!`TSparseArray&lt;TSetElement&lt;TWeakPtr&lt;FActivatableTreeRoot,1&gt; &gt;,TSparseArrayAllocator&lt;TSizedDefaultAllocator&lt;32&gt;,FDefaultBitArrayAllocator&gt; &gt;::TRangedForIterator::operator!=&apos;::`2&apos;::&lt;lambda_1&gt;::operator()() []
+0x00007ff7b8520053 Onibi.exe!UCommonUIActionRouterBase::RegisterWidgetBindings() []
+0x00007ff7b851da2f Onibi.exe!UCommonUIActionRouterBase::ProcessRebuiltWidgets() []
+0x00007ff7b8524ad4 Onibi.exe!UCommonUIActionRouterBase::Tick() []
+0x00007ff7b850c59a Onibi.exe!TBaseUObjectMethodDelegateInstance&lt;0,UCommonUIActionRouterBase,bool __cdecl(float),FDefaultDelegateUserPolicy&gt;::Execute() []
+0x00007ff7afda5805 Onibi.exe!`FFileCache::PushCompletedRequest&apos;::`12&apos;::&lt;lambda_1&gt;::operator()() []
+0x00007ff7afdf4e79 Onibi.exe!FTSTicker::Tick() []
+0x00007ff7b83a90b9 Onibi.exe!FEngineLoop::Tick() []
+0x00007ff7b83b9bbc Onibi.exe!GuardedMain() []
+0x00007ff7b83b9c9a Onibi.exe!GuardedMainWrapper() []
+0x00007ff7b83bcac8 Onibi.exe!LaunchWindowsStartup() []
+0x00007ff7b83ca0c4 Onibi.exe!WinMain() []
+0x00007ff7bd8de62a Onibi.exe!__scrt_common_main_seh() [D:\a\_work\1\s\src\vctools\crt\vcstartup\src\startup\exe_common.inl:288]
+0x00007ffdb3f27374 KERNEL32.DLL!UnknownFunction []
+0x00007ffdb439cc91 ntdll.dll!UnknownFunction []
+</ErrorMessage>
+<CrashReporterMessage></CrashReporterMessage>
+<CrashReporterMessage>Attended</CrashReporterMessage>
+<ProcessId>31472</ProcessId>
+<SecondsSinceStart>0</SecondsSinceStart>
+<IsInternalBuild>false</IsInternalBuild>
+<IsPerforceBuild>false</IsPerforceBuild>
+<IsWithDebugInfo>false</IsWithDebugInfo>
+<IsSourceDistribution>false</IsSourceDistribution>
+<GameName>UE-Onibi</GameName>
+<ExecutableName>Onibi</ExecutableName>
+<BuildConfiguration>Development</BuildConfiguration>
+<GameSessionID></GameSessionID>
+<PlatformName>Windows</PlatformName>
+<PlatformFullName>Windows</PlatformFullName>
+<PlatformNameIni>Windows</PlatformNameIni>
+<EngineMode>Game</EngineMode>
+<EngineModeEx>Unset</EngineModeEx>
+<DeploymentName></DeploymentName>
+<EngineVersion>5.6.0-43139311+++UE5+Release-5.6</EngineVersion>
+<EngineCompatibleVersion>5.6.0-43139311+++UE5+Release-5.6</EngineCompatibleVersion>
+<CommandLine> Onibi</CommandLine>
+<LanguageLCID>9</LanguageLCID>
+<AppDefaultLocale>en-US</AppDefaultLocale>
+<BuildVersion>++UE5+Release-5.6-CL-43139311</BuildVersion>
+<Symbols>**UE5*Release-5.6-CL-43139311-Win64-Development</Symbols>
+<IsUERelease>false</IsUERelease>
+<IsRequestingExit>false</IsRequestingExit>
+<UserName></UserName>
+<BaseDir>C:/Users/User/Documents/OnibiDevTest/Windows/Onibi/Binaries/Win64/</BaseDir>
+<RootDir>C:/Users/User/Documents/OnibiDevTest/Windows/</RootDir>
+<MachineId>3A3745744C54D30F3A343998635D0CC7</MachineId>
+<LoginId>3a3745744c54d30f3a343998635d0cc7</LoginId>
+<EpicAccountId>e9e484d235bb456b923df2a3ee7e8d41</EpicAccountId>
+<SourceContext></SourceContext>
+<UserDescription></UserDescription>
+<UserActivityHint></UserActivityHint>
+<CrashDumpMode>0</CrashDumpMode>
+<GameStateName></GameStateName>
+<Misc.NumberOfCores>8</Misc.NumberOfCores>
+<Misc.NumberOfCoresIncludingHyperthreads>16</Misc.NumberOfCoresIncludingHyperthreads>
+<Misc.Is64bitOperatingSystem>1</Misc.Is64bitOperatingSystem>
+<Misc.CPUVendor>AuthenticAMD</Misc.CPUVendor>
+<Misc.CPUBrand>AMD Ryzen 7 7800X3D 8-Core Processor           </Misc.CPUBrand>
+<Misc.PrimaryGPUBrand>NVIDIA GeForce RTX 3060</Misc.PrimaryGPUBrand>
+<Misc.OSVersionMajor>Windows 10 (22H2) [10.0.19045.6093]</Misc.OSVersionMajor>
+<Misc.OSVersionMinor></Misc.OSVersionMinor>
+<Misc.AnticheatProvider></Misc.AnticheatProvider>
+<MemoryStats.TotalPhysical>33443160064</MemoryStats.TotalPhysical>
+<MemoryStats.TotalVirtual>59212963840</MemoryStats.TotalVirtual>
+<MemoryStats.PageSize>4096</MemoryStats.PageSize>
+<MemoryStats.TotalPhysicalGB>32</MemoryStats.TotalPhysicalGB>
+<MemoryStats.AvailablePhysical>11622801408</MemoryStats.AvailablePhysical>
+<MemoryStats.AvailableVirtual>13955837952</MemoryStats.AvailableVirtual>
+<MemoryStats.UsedPhysical>3385819136</MemoryStats.UsedPhysical>
+<MemoryStats.PeakUsedPhysical>3395629056</MemoryStats.PeakUsedPhysical>
+<MemoryStats.UsedVirtual>3838709760</MemoryStats.UsedVirtual>
+<MemoryStats.PeakUsedVirtual>3851235328</MemoryStats.PeakUsedVirtual>
+<MemoryStats.bIsOOM>0</MemoryStats.bIsOOM>
+<MemoryStats.OOMAllocationSize>0</MemoryStats.OOMAllocationSize>
+<MemoryStats.OOMAllocationAlignment>0</MemoryStats.OOMAllocationAlignment>
+<NumMinidumpFramesToIgnore>8</NumMinidumpFramesToIgnore>
+<CallStack></CallStack>
+<PCallStack>
+
+Onibi     0x00007ff7ae8b0000 + f39ac5d         
+Onibi     0x00007ff7ae8b0000 + 9c70053         
+Onibi     0x00007ff7ae8b0000 + 9c6da2f         
+Onibi     0x00007ff7ae8b0000 + 9c74ad4         
+Onibi     0x00007ff7ae8b0000 + 9c5c59a         
+Onibi     0x00007ff7ae8b0000 + 14f5805         
+Onibi     0x00007ff7ae8b0000 + 1544e79         
+Onibi     0x00007ff7ae8b0000 + 9af90b9         
+Onibi     0x00007ff7ae8b0000 + 9b09bbc         
+Onibi     0x00007ff7ae8b0000 + 9b09c9a         
+Onibi     0x00007ff7ae8b0000 + 9b0cac8         
+Onibi     0x00007ff7ae8b0000 + 9b1a0c4         
+Onibi     0x00007ff7ae8b0000 + f02e62a         
+KERNEL32  0x00007ffdb3f10000 + 17374           
+</PCallStack>
+<PCallStackHash>2676D46DF13C9CC5C96AA3088423394C22B2558E</PCallStackHash>
+</RuntimeProperties>
+<PlatformProperties>
+<PlatformIsRunningWindows>1</PlatformIsRunningWindows>
+<PlatformIsRunningWine>false</PlatformIsRunningWine>
+<PlatformSupportsWindows11>true</PlatformSupportsWindows11>
+<IsRunningOnBattery>false</IsRunningOnBattery>
+<IsUsingBatterySaver>false</IsUsingBatterySaver>
+<PlatformCallbackResult>0</PlatformCallbackResult>
+<CrashTrigger>0</CrashTrigger>
+</PlatformProperties>
+<EngineData>
+<MatchingDPStatus>WindowsNo errors</MatchingDPStatus>
+<RHI.IntegratedGPU>false</RHI.IntegratedGPU>
+<RHI.DriverDenylisted>false</RHI.DriverDenylisted>
+<RHI.D3DDebug>false</RHI.D3DDebug>
+<RHI.DRED>false</RHI.DRED>
+<RHI.DREDMarkersOnly>false</RHI.DREDMarkersOnly>
+<RHI.DREDContext>false</RHI.DREDContext>
+<RHI.Aftermath>true</RHI.Aftermath>
+<RHI.RHIName>D3D12</RHI.RHIName>
+<RHI.AdapterName>NVIDIA GeForce RTX 3060</RHI.AdapterName>
+<RHI.UserDriverVersion>560.94</RHI.UserDriverVersion>
+<RHI.InternalDriverVersion>32.0.15.6094</RHI.InternalDriverVersion>
+<RHI.DriverDate>8-14-2024</RHI.DriverDate>
+<RHI.FeatureLevel>SM6</RHI.FeatureLevel>
+<RHI.GPUVendor>NVIDIA</RHI.GPUVendor>
+<RHI.DeviceId>2504</RHI.DeviceId>
+<DeviceProfile.Name>Windows</DeviceProfile.Name>
+<Platform.AppHasFocus>true</Platform.AppHasFocus>
+</EngineData>
+<GameData>
+</GameData>
+</FGenericCrashContext>
